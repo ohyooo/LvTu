@@ -1,0 +1,43 @@
+# Gradle / Kotlin / Android build outputs
+.gradle/
+.kotlin/
+**/build/
+**/.cxx/
+**/.externalNativeBuild/
+/ci-output/
+/out/
+local.properties
+
+# IDE / OS
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local signing and secrets
+*.jks
+!app/signkey.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+
+# Generated packages and diagnostics
+*.apk
+*.aab
+*.apks
+*.dex
+*.class
+*.log
+*.hprof
+__pycache__/
+*.py[cod]
+/diagnostics/
+/DEBUG_STATE.txt
+/WORK_IN_PROGRESS.txt
+/tools/
+/TODO.txt

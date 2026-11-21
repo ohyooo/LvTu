@@ -1,0 +1,21 @@
+[versions]
+jdk = "25"
+kotlin = "2.4.21"
+min-sdk = "29"
+target-sdk = "37"
+compile-sdk = "37"
+compile-minor = "2"
+build-tools = "37.0.0"
+ndk = "30.0.16248370"
+cmake = "4.1.2"
+agp = "9.5.1"
+libxposed = "102.0.0"
+coroutines = "1.11.0"
+
+[plugins]
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+agp = { id = "com.android.application", version.ref = "agp" }
+
+[libraries]
+libxposed-api = { module = "io.github.libxposed:api", version.ref = "libxposed" }
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }

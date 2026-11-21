@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.22)
+project(lvtu_startup LANGUAGES CXX)
+add_library(lvtu_startup SHARED diagnose.cpp)
+target_compile_features(lvtu_startup PRIVATE cxx_std_17)
+target_compile_options(lvtu_startup PRIVATE -Wall -Wextra -Werror -fvisibility=hidden)
+target_link_libraries(lvtu_startup PRIVATE log dl)
