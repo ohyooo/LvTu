@@ -8,7 +8,7 @@ compile-minor = "2"
 build-tools = "37.0.0"
 ndk = "30.0.16248370"
 cmake = "4.1.2"
-agp = "9.5.2"
+agp = "9.5.3"
 libxposed = "102.0.0"
 coroutines = "1.11.0"
 
